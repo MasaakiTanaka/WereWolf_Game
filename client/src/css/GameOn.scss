@@ -1,0 +1,68 @@
+﻿ .container {
+     display: grid;
+     grid-template-rows: 100px 100px;
+     grid-template-columns: 100px 100px 100px 100px 100px 100px;
+     
+    .field0 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    .field1 {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    
+    .field2 {
+
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    
+    .field3 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    
+    .field4 {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+    
+    .field5 {
+        grid-row: 2 / 3;
+        grid-column: 5 / 6;
+    }
+    
+    .field6 {
+        grid-row: 2 / 3;
+        grid-column: 6 / 7;
+    }
+ }
+
+ .gameTimes {
+    position:relative;
+    left:600px;
+    top:10px;
+ }
+
+ .userName {
+    position:relative;
+    left:600px;
+    top:30px;
+ }
+
+ .rolesList {
+    position:relative;
+    left:600px;
+    top:60px;
+ }
+
+ .checkedField {
+    position:relative;
+    left:600px;
+    bottom:40px;
+ }
+
+ 
+ 
